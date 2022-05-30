@@ -1,0 +1,256 @@
+.subtitle {
+    color: #EEEEEE;
+    font-size: 5vw;
+    font-weight: 700;
+    padding: 10vw 0 0 5vw;
+    text-shadow: 1vw 1vw 1px #393E46;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vw;
+}
+
+.input-name {
+    padding: 1vw 0;
+    color: #EEEEEE;
+    width: 100%;
+}
+
+.input-content {
+    font-size: 4vw;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    height: 5vw;
+    width: 100%;
+}
+
+.input-content::placeholder {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-message {
+    height: 30vw;
+}
+
+.content-special {
+    width: 80%;
+    background-color: #EEEEEE;
+}
+
+.button-input-content {
+    background-color: #393E46;
+    border: none;
+    color: #EEEEEE;
+    height: 8vw;
+    width: 16%;
+}
+
+.subject {
+    background-color: #EEEEEE;
+    display: none;
+    margin-top: -5vw;
+    width: 83.25%;
+}
+
+.subject-element {
+    padding: 2vw;
+}
+
+.subject-element:hover {
+    background-color: #FFD369;
+}
+
+.inputs-required {
+    color: #EEEEEE;
+    padding-bottom: 3vw;
+    width: 100%;
+}
+
+.message {
+    color: #393E46;
+    font-weight: 600;
+    padding-bottom: 3vw;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    width: 100%;
+}
+
+.message--active {
+    color: #FFD369;
+    transition: all 0.5s ease-in-out;
+    visibility: visible;
+}
+
+.form-button {
+    background-color: #393E46;
+    border: none;
+    color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    padding: 3vw;
+}
+
+.contact-data {
+    color: #EEEEEE;
+    font-size: 5vw;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 5vw 0 2.5vw 5vw;
+}
+
+.map-content {
+    padding: 5vw 5vw 15vw 5vw;
+}
+
+.map {
+    height: 80vw;
+    width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    .subtitle {
+        font-size: 1rem;
+        text-shadow: 0.5vw 0.5vw 1px #393E46;
+        padding-left: 10vw;
+    }
+
+    .contact {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .input-name {
+        font-size: 0.9rem;
+    }
+
+    .input-content {
+        font-size: 0.8rem;
+        height: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .button-input-content {
+        height: 6vw;
+    }
+
+    .subject {
+        margin-top: -3vw;
+    }
+
+    .subject-element {
+        font-size: 0.9rem;
+        height: 2vw;
+    }
+
+    .input-message {
+        height: 6vw;
+    }
+
+    .inputs-required {
+        font-size: 0.9rem;
+    }
+
+    .message {
+        font-size: 0.9rem;
+    }
+
+    .form-button {
+        font-size: 0.9rem;
+    }
+
+    .contact-data {
+        font-size: 0.9rem;
+        padding-left: 10vw;
+        line-height: 20px;
+    }
+
+    .map-content {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-container {
+        padding: 0;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        text-shadow: 0.25vw 0.25vw 1px #393E46;
+        padding-left: 25vw;
+        padding-top: 5vw;
+        width: 100%;
+    }
+
+    .contact {
+        padding-top: 3vw;
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
+
+    .input-content {
+
+        height: 1vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .button-input-content {
+        height: 3.5vw;
+        width: 5vw;
+    }
+
+    .subject {
+        margin-top: -1.5vw;
+        width: 41.45vw;
+    }
+
+    .subject-element {
+        font-size: 0.9rem;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        height: 1vw;
+    }
+
+    .button-input-content {
+        width: 6.5vw;
+    }
+
+    .input-message {
+        height: 6vw;
+    }
+
+    .inputs-required {
+        font-size: 0.9rem;
+        padding-bottom: 1vw;
+    }
+
+    .message {
+        font-size: 0.9rem;
+    }
+
+    .form-button {
+        padding: 1vw;
+        font-size: 0.9rem;
+    }
+
+    .contact-data {
+        font-size: 1.2rem;
+        padding-top: 5vw;
+        padding-bottom: 0;
+        line-height: 20px;
+        padding-left: 25vw;
+    }
+
+    .map-content {
+        padding: 5vw 25vw;
+        width: 100%;
+    }
+
+    .map {
+        height: 30vw;
+    }
+
+}

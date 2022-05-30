@@ -1,0 +1,140 @@
+.main-container {
+    padding-bottom: 10vw;
+}
+
+.main-text {
+    color: #EEEEEE;
+    font-weight: 200;
+    font-size: 4.5vw;
+    line-height: 25px;
+    padding: 10vw 5vw 15vw 5vw;
+    text-align: justify;
+}
+
+b {
+    font-weight: 400;
+}
+
+.about {
+    padding: 0 5vw 3vw 5vw;
+}
+
+.subtitle {
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 2vw 0;
+    text-shadow: 1vw 1vw 1px #393E46;
+}
+
+.about p {
+    color: #EEEEEE;
+    font-weight: 200;
+    font-size: 4vw;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.photo {
+    margin: 5vw;
+    margin-bottom: 15vw;
+}
+
+
+.first-photo {
+    background: url(../img/hostel.jpg) center / cover no-repeat;
+    height: 40vw;
+    margin-top: 5vw;
+}
+
+.second-photo {
+    background: url(../img/nosotros.jpg) bottom / cover no-repeat;
+    height: 40vw;
+    margin-top: 5vw;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .main-container {
+        padding-bottom: 5vw;
+    }
+
+    .main-text {
+        font-size: 0.95rem;
+        line-height: 20px;
+        padding: 10vw 10vw;
+    }
+
+    .about {
+        padding: 0 10vw 2vw 10vw;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        text-shadow: 0.5vw 0.5vw 1px #393E46;
+    }
+
+    .photo {
+        margin: 10vw;
+        margin-top: 3vw;
+    }
+
+
+    .about p {
+        font-size: 0.95rem;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-text {
+        font-size: 0.95rem;
+        line-height: 20px;
+        padding: 5vw 10vw;
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        padding-bottom: 5vw;
+        width: 37vw;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        text-shadow: 0.25vw 0.25vw 1px #393E46;
+        width: 100%;
+    }
+
+    .about p {
+        font-size: 0.95rem;
+        line-height: 20px;
+        padding: 0;
+    }
+
+    .photo {
+        margin: 0;
+        height: 18vw;
+        width: 30vw;
+        margin-bottom: 5vw;
+    }
+
+    .first-photo {
+        order: 1;
+        margin-right: 1vw;
+    }
+
+    .about-enterprise {
+        order: 2;
+    }
+
+    .about-us {
+        order: 3;
+    }
+
+    .second-photo {
+        order: 4;
+        margin-left: 1vw;
+    }
+}

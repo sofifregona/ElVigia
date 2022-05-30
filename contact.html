@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>El vigía - Hostel</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        <h1 class="title">El vigía</h1>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <button class="nav-button" name="index">Home</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-button" name="hostel">Hostel</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-button" name="services">Servicios</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-button" name="contact">Contacto</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <h2 class="subtitle">Contactenos</h2>
+      <form class="contact">
+        <label class="input-name">Nombre*</label>
+        <input class="input-content" type="text" required />
+        <label class="input-name">E-mail*</label>
+        <input
+          class="input-content"
+          placeholder="nombre@email.com"
+          pattern="[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,4}"
+          type="text"
+          required
+        />
+        <label class="input-name">Teléfono</label>
+        <input
+          class="input-content"
+          placeholder="000000000"
+          step="1"
+          type="number"
+          required
+        />
+        <label class="input-name">Asunto</label>
+        <input
+          class="input-content content-special"
+          type="text"
+          value="Reservas"
+          disabled
+          required
+        />
+        <button class="button-input-content">▼</button>
+        <ul class="subject">
+          <li class="subject-element">Reservas</li>
+          <li class="subject-element">Otro</li>
+        </ul>
+        <label class="input-name">Mensaje*</label>
+        <textarea
+          class="input-content input-message"
+          placeholder="Escriba su mensaje aquí"
+          required
+        ></textarea>
+        <p class="inputs-required">(*) Campos obligatorios</p>
+        <span class="message"> </span>
+        <button class="form-button">Enviar mensaje</button>
+      </form>
+      <h2 class="subtitle">Nuestra ubicación</h2>
+      <p class="contact-data">
+        Gral. Las Heras 230,<br />
+        M5545 Uspallata, Mendoza<br />
+        +54 262 4123 456<br />
+        hostelelvigia@gmail.com
+      </p>
+      <div class="map-content">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.545006947875!2d-69.34621199061972!3d-32.59165630610517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968766302fd136d7%3A0x14816f060419ce4c!2sGral.%20Las%20Heras%20230%20m5545%2C%20Uspallata%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1653866003493!5m2!1ses-419!2sar"
+          class="map"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>2022 © María Sofía Fregona</p>
+      <p>Todos los derechos reservados</p>
+    </footer>
+    <script src="scripts/buttons.js"></script>
+    <script src="scripts/contact.js"></script>
+  </body>
+</html>
